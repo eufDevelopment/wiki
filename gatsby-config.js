@@ -1,8 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `EUGEM`,
+    description: `EUGEM - European Ultimate Gender Equity Manual`,
+    lang: `en`,
+    mainSite: `https://ultimatefederation.eu/`,
+    facebook: `https://www.facebook.com/ultimate.eu`,
+    twitter: `https://twitter.com/euf_ultimate`,
+    instagram: `https://www.instagram.com/ultimatefederation_eu`,
+    ultical: `tbd`,
+    author: `@gabrieles`,
+    contactEmail: 'development@ultimatefederation.eu',
+    contactUrl1: process.env.contactUrl1,
+    contactUrl2: process.env.contactUrl2
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
