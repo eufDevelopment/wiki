@@ -16,7 +16,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
-      resolve: "gatsby-source-confluence",
+      resolve: "gatsby-confluence-euf",
       options: {
         hostname: "eugem.atlassian.net",
         auth: process.env.confluenceAuth,
