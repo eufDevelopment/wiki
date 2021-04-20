@@ -15,6 +15,15 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: "gatsby-source-confluence",
+      options: {
+        hostname: "eugem.atlassian.net",
+        auth: process.env.confluenceAuth,
+        cql: process.env.confluenceCQL,
+        limit: 50
+      }
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
