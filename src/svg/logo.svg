@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <g>
+    <path d="M247.216 5.812c-124.498 0-225.424 100.926-225.424 225.424a226.04 226.04 0 006.25 52.86h43.962c-5.041-16.739-7.839-34.479-7.839-52.86 0-101.096 81.955-183.051 183.05-183.051 47.336 0 90.493 17.971 122.988 47.458l29.873-29.98c-40.18-37.106-93.854-59.851-152.86-59.851zm164.936 71.822l-29.979 29.979c29.846 32.57 48.094 75.964 48.094 123.623 0 18.381-2.798 36.121-7.84 52.86h43.963a226.04 226.04 0 006.25-52.86c0-59.358-22.987-113.344-60.488-153.602zm-164.936 29.873c-68.334 0-123.729 55.395-123.729 123.729 0 18.928 4.266 36.82 11.864 52.86h39.195c-10.822-14.836-17.16-33.09-17.16-52.86 0-49.612 40.218-89.83 89.83-89.83 21.623 0 41.383 7.716 56.885 20.444l24.047-24.152c-21.7-18.798-49.969-30.191-80.932-30.191zm93.008 42.161l-24.046 24.153c12.987 15.577 20.868 35.548 20.868 57.415 0 19.77-6.338 38.024-17.16 52.86h39.194c7.599-16.04 11.865-33.932 11.865-52.86 0-31.265-11.594-59.786-30.72-81.568z"/>
+    <text y="773.619" x="695.239" style="line-height:0%;text-align:start" font-weight="700" font-family="Candara" letter-spacing="0" word-spacing="0" transform="translate(-2333.89 -2210.264) scale(3.38983)">
+      <tspan y="773.619" x="695.239" style="font:700 28px/125% &quot;Gill Sans MT&quot;;text-align:start">EUROPEAN</tspan>
+    </text>
+    <text y="800.22" x="695.717" style="line-height:0%;text-align:start" font-weight="400" font-family="Gill Sans MT" letter-spacing="0" word-spacing="0" transform="translate(-2333.89 -2210.264) scale(3.38983)">
+      <tspan dx="0 0 -2.4827492 0 0 0 -2.4827492" y="800.22" x="695.717" style="font:28px/125% &quot;Gill Sans MT&quot;;text-align:start">ULTIMATE</tspan>
+    </text>
+    <text y="827.094" x="695.294" style="line-height:0%;text-align:start" font-weight="400" font-family="Gill Sans MT" letter-spacing="0" word-spacing="0" transform="translate(-2333.89 -2210.264) scale(3.38983)">
+      <tspan dx="0 0 0 0 0 0 -2.4827492" y="827.094" x="695.294" style="font:28px/125% &quot;Gill Sans MT&quot;;text-align:start">FEDERATION</tspan>
+    </text>
+  </g>
+</svg>

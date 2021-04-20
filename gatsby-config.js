@@ -32,6 +32,14 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: "gatsby-plugin-svgr-loader", //see https://stackoverflow.com/questions/61158924/import-svg-as-a-component-in-gatsby
+      options: {
+        rule: {
+          include: /svg/
+        }
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
