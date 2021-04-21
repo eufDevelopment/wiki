@@ -1,0 +1,257 @@
+  
+nav a,
+nav a:visited {
+    color: var(--colorA);
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1.2rem 0.5rem 0.35rem;
+}
+
+nav a:hover{
+    background-color: var(--colorD);
+    color: var(--color1)
+}
+
+nav .expand{
+    position: absolute;
+    top: 6px;
+    right: 3px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0;
+    border-style: none;
+    background: transparent;
+    display: block;
+    cursor: pointer;
+    font-size: 1rem;
+    color: var(--colorB);
+    transform: rotate(180deg);
+    transition: 0.5s;
+    fill: var(--colorB);
+    border-radius: 50%;
+    
+}
+nav .collapsed.expand{
+    transform: rotate(90deg);
+}
+nav .expand:hover{
+    color: var(--color2);
+    fill: var(--color2);
+    box-shadow: none;
+}
+nav .collapsed.expand + .submenu{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s, height 0.5s linear;
+    max-height: 0;
+}
+nav .expand + .submenu{
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+}
+.lvl2 a {
+    padding-left: 1.2rem;
+}
+.lvl3 a {
+    padding-left: 2.4rem;
+}
+
+.expand svg {
+    width: 40%;
+}
+
+
+.search-wrapper{
+    margin-top: var(--unit3);
+    position: relative;
+}
+.search-wrapper .searchLabel{
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+.search-wrapper .search{
+    border: 1px solid var(--colorB);
+    border-radius: var(--unit1);
+    display: block;
+    font-size: 0.8rem;
+    width: 100%;
+    padding: var(--unit1) var(--unit6) var(--unit1) var(--unit2);  
+    outline: none;
+}
+.search-wrapper .searchButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-right-radius: var(--unit1);
+    border-bottom-right-radius: var(--unit1);
+    border: 1px solid var(--colorB);
+    height: 100%;
+    background-color: var(--colorD);
+}
+.search-wrapper .searchButton span {
+    display: block;
+    color: var(--colorB);
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    fill: var(--colorB);
+}
+
+
+footer #eufLinks a{
+    color: var(--colorAA);
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid;
+    width: var(--unit7);
+    height: var(--unit7);
+    line-height: var(--unit7);
+    margin-left: var(--unit2);
+    border-radius: var(--unit1);
+    padding: var(--unit1);
+    fill: var(--colorAA);
+    top: 3px;
+    position: relative;
+}
+footer #eufLinks a:hover{
+    fill: var(--color1);
+    border-color: var(--color1);
+    box-shadow: var(--shadow1);
+}
+
+
+
+.image-right-wrap-wrapper {
+    float: right;
+}
+
+
+.breadcrumb {
+    padding-right: 50px;
+    margin-bottom: 20px;
+    display: block;
+}
+.back-button-wrapper{
+    position: absolute;
+    top: 6px;
+    right: 0;
+}
+.breadcrumb .crumb::after {
+    content: "\276D";
+    margin-right: 10px;
+}
+.breadcrumb .crumb:last-child::after, 
+.breadcrumb .crumb:first-child::after {
+    content: "";
+    margin-right: 0;
+}
+.breadcrumb .hidden{
+    display: none;
+}
+.back-button {
+    border-style: none;
+    background: #fff;
+    color: var(--color3);
+}
+.back-button:hover {
+    color: var(--color3);
+    text-decoration: underline;
+}
+
+
+#nav {
+    position: relative;
+}
+.hamburger {
+    cursor: pointer;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    transition: all 0.25s;
+    top: var(--unit3);
+    right:var(--unit3);
+    border: 2px solid #fff;
+    border-radius: 50%;
+  }
+  
+  .hamburger__top-bun,
+  .hamburger__bottom-bun {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    height: 2px;
+    background: var(--colorB);
+    transform: rotate(0);
+    transition: all 0.25s;
+  }
+  
+  .hamburger:hover {
+    border-color: var(--color2);
+    box-shadow: var(--shadow1);
+  }
+  .hamburger:hover [class*="-bun"] {
+    background: var(--color2);
+  }
+  
+  .hamburger__top-bun {
+    top: 16px;
+    transform: translateY(-3px);
+  }
+  
+  .hamburger__bottom-bun {
+    bottom: 16px;
+    transform: translateY(3px);
+  }
+  
+  
+  .open .hamburger__top-bun {
+    transform: 
+      rotate(45deg) 
+      translateY(-1px);
+  }
+  
+  .open .hamburger__bottom-bun {
+    transform: 
+      rotate(-45deg) 
+      translateY(1px);
+  } 
+
+  #nav-container {
+      display: none;
+  }
+  .open #nav-container {
+    display: block;
+    transition: all 0.25s;
+  }
+  .logo {
+      height: 80px;
+  }
+  @media only screen and (min-width: 820px) {
+    body #root {
+        grid-template-columns: 280px 1fr;
+        grid-template-rows: auto 1fr;
+    } 
+    body #main-wrapper {
+        margin:  10px 0 5% 20px;
+        max-width: 98%;
+    } 
+    body #nav-container {
+        display: block;
+    }
+    body .hamburger {
+        display: none;
+    }
+    body .logo {
+        height: 100px;
+    }
+  }

@@ -1,0 +1,184 @@
+[
+    {
+      "text":"EUGEM Manual",
+      "url":"/wiki/398099282",
+      "id":"398099282",
+      "nodes":[
+          {
+            "text":"Good Practices",
+            "url":"/wiki/274825217",
+            "id":"274825217",
+            "nodes":[
+                {
+                  "text":"Recruit",
+                  "url":"/wiki/274825221",
+                  "id":"274825221"
+                },
+                {
+                  "text":"Train",
+                  "url":"/wiki/274825478",
+                  "id":"274825478"
+                },
+                {
+                  "text":"Retain",
+                  "url":"/wiki/274825678",
+                  "id":"274825678"
+                }
+            ]
+          },
+          {
+            "text":"Case Studies",
+            "url":"/wiki/136282113",
+            "id":"136282113"
+          },
+          {
+            "text":"About the EUGEM project",
+            "url":"/wiki/397902888",
+            "id":"397902888",
+            "nodes":[
+                {
+                  "text":"Biographies",
+                  "url":"/wiki/336560186",
+                  "id":"336560186"
+                },
+                {
+                  "text":"Press Kit",
+                  "url":"/wiki/397870153",
+                  "id":"397870153"
+                }
+            ]
+          }
+      ]
+    },
+    {
+      "text":"Gender Equity Assessment Form",
+      "url":"/assess",
+      "id":"assess"
+    },
+    {
+      "text":"Resources",
+      "url":"/wiki/398099347",
+      "id":"398099347",
+      "nodes":[
+          {
+            "text":"Event management",
+            "url":"/wiki/397968496",
+            "id":"397968496",
+            "nodes":[
+                {
+                  "text":"Gender Equity Toolkit for Tournament Organizers",
+                  "url":"/wiki/274825774",
+                  "id":"274825774"
+                },
+                {
+                  "text":"Sustainability Toolkit for Tournament Organisers",
+                  "url":"/wiki/397968506",
+                  "id":"397968506"
+                },
+                {
+                  "text":"How to host an event",
+                  "url":"/wiki/397968523",
+                  "id":"397968523"
+                },
+                {
+                  "text":"EUF tournament standards",
+                  "url":"/wiki/397870180",
+                  "id":"397870180"
+                },
+                {
+                  "text":"EUF Event Waiver",
+                  "url":"/wiki/397902903",
+                  "id":"397902903"
+                }
+            ]
+          },
+          {
+            "text":"Glossary",
+            "url":"/wiki/491531",
+            "id":"491531"
+          },
+          {
+            "text":"Legal help by country",
+            "url":"/wiki/397968479",
+            "id":"397968479"
+          },
+          {
+            "text":"Policy Research",
+            "url":"/wiki/397902974",
+            "id":"397902974",
+            "nodes":[
+                {
+                  "text":"How to create your harassment and abuse policy",
+                  "url":"/wiki/397902981",
+                  "id":"397902981"
+                },
+                {
+                  "text":"LGBTQ+ in sport",
+                  "url":"/wiki/397870244",
+                  "id":"397870244"
+                },
+                {
+                  "text":"The Patterns of Abuse",
+                  "url":"/wiki/435781636",
+                  "id":"435781636"
+                }
+            ]
+          },
+          {
+            "text":"IT & Web",
+            "url":"/wiki/397968540",
+            "id":"397968540",
+            "nodes":[
+                {
+                  "text":"Site buidling",
+                  "url":"/wiki/397968547",
+                  "id":"397968547"
+                },
+                {
+                  "text":"Forms",
+                  "url":"/wiki/398099364",
+                  "id":"398099364"
+                },
+                {
+                  "text":"Personas",
+                  "url":"/wiki/398099371",
+                  "id":"398099371"
+                },
+                {
+                  "text":"Wiki",
+                  "url":"/wiki/397968561",
+                  "id":"397968561"
+                }
+            ]
+          }
+      ]
+    },
+    {
+      "text":"EUF Policies",
+      "url":"/wiki/397968568",
+      "id":"397968568",
+      "nodes":[
+          {
+            "text":"EUF Transgender Inclusion",
+            "url":"/wiki/397902940",
+            "id":"397902940 "
+          },
+          {
+            "text":"EUF safe and inclusive sport",
+            "url":"/wiki/397870217",
+            "id":"397870217"
+          },
+          {
+            "text":"EUF Procurement Policy",
+            "url":"/wiki/424574977",
+            "id":"424574977"
+          }
+      ]
+    },
+    {
+      "text":"Safe Sport Report Form",
+      "url":"/safe",
+      "id":"ssff"
+    }
+  ]
+  

@@ -1,0 +1,47 @@
+form .form-item {
+    margin-bottom: 3rem;
+}
+
+form label{
+    display: block;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+form label.optional:after{
+    content: '(optional)';
+    color: var(--colorAA);
+    margin-left: var(--unit2)
+}
+
+form .form-item .field {
+    background-color: var(--colorD);
+    width: 100%;
+    border-style: none;
+    font-size: 0.9rem;
+    padding: var(--unit2) var(--unit3);
+    line-height: 1.45rem;
+    background-blend-mode: color-burn;
+}
+
+form .field-line{
+    height: var(--unit1);
+    width: 100%;
+    display: block;
+}
+
+form .hidden {
+    position: absolute;
+    top: -2000px;
+}
+
+form .errorMessage {
+    font-size: 0.75rem;
+    color: var(--colorError);
+    position: fixed;
+}
+
+textarea:focus, 
+input:focus{
+    outline: none;
+}
