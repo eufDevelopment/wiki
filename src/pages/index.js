@@ -1,29 +1,24 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
+import React from "react"
+import { StaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
-  </Layout>
+const homePage = () => (
+  <StaticQuery
+    query={graphql`
+      {
+        confluencePage(slug: {eq: "32959"}) {
+          bodyHtml
+          title
+        }
+      }
+    `}
+    render={data => (
+    <Layout> 
+      <SEO title="Home" keywords={[`gender equity`, `gender equality`, `ultimate`, `coaching`, `European Ultimate Federation`, `erasmus`]}  />
+        <div dangerouslySetInnerHTML={{ __html: data.confluencePage.bodyHtml }} />
+    </Layout> )}
+  ></StaticQuery>
 )
 
-export default IndexPage
+export default homePage
