@@ -64,6 +64,47 @@ module.exports = {
         type: 'array'
       },
     },
+    {
+      resolve: 'gatsby-plugin-flexsearch',
+      options: {
+        languages: ['en'],
+        type: 'ConfluencePage',
+        fields: [
+          {
+            name: 'title',
+            indexed: true,
+            resolver: 'title',
+            attributes: {
+              encode: 'balance',
+              tokenize: 'strict',
+              threshold: 0,
+              resolution: 3,
+              depth: 3,
+            },
+            store: true,
+          },
+          {
+            name: 'body',
+            indexed: true,
+            resolver: 'bodyHtml',
+            attributes: {
+              encode: 'balance',
+              tokenize: 'strict',
+              threshold: 0,
+              resolution: 3,
+              depth: 3,
+            },
+            store: false,
+          },
+          {
+            name: 'url',
+            indexed: false,
+            resolver: 'slug',
+            store: true,
+          },
+        ],
+      },
+    },
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
