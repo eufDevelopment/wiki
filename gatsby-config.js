@@ -54,6 +54,16 @@ module.exports = {
         icon: `src/images/eugem-favicon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-remote-images`,
+      options: {
+        nodeType: 'ConfluencePage',
+        name: 'localImages',
+        imagePath: 'images',
+        auth: { htaccess_user: process.env.confluenceHtaccess_user, htaccess_pass: process.env.confluenceHtaccess_pass },
+        type: 'array'
+      },
+    },
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
