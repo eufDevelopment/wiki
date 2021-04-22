@@ -4,12 +4,13 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import MagnifyingGlass from "../svg/magnifyingGlass.svg"
 
+let urlQuery = '';
 if (typeof window !== `undefined`){ 
   const { search } = window.location;
-  const urlQuery = new URLSearchParams(search).get('s');   
+  urlQuery = new URLSearchParams(search).get('s');   
 } else {
   const { search } = 'ultimate';
-  const urlQuery = ''  
+  urlQuery = ''  
 }
 
 
