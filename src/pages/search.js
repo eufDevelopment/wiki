@@ -6,10 +6,12 @@ import MagnifyingGlass from "../svg/magnifyingGlass.svg"
 
 if (typeof window !== `undefined`){ 
   const { search } = window.location;
+  const urlQuery = new URLSearchParams(search).get('s');   
 } else {
   const { search } = 'ultimate';
+  const urlQuery = ''  
 }
-const urlQuery = new URLSearchParams(search).get('s');   
+
 
 // Search component
 class Search extends Component {   
