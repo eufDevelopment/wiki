@@ -4,7 +4,11 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import MagnifyingGlass from "../svg/magnifyingGlass.svg"
 
-const { search } = window.location;
+if (typeof window !== `undefined`){ 
+  const { search } = window.location;
+} else {
+  const { search } = 'ultimate';
+}
 const urlQuery = new URLSearchParams(search).get('s');   
 
 // Search component
