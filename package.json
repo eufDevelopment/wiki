@@ -7,7 +7,7 @@
   "dependencies": {
     "formik": "^2.2.6",
     "gatsby": "^3.2.1",
-    "gatsby-confluence-euf": "^1.0.0",
+    "gatsby-confluence-euf": "^1.1.0",
     "gatsby-plugin-flexsearch": "^1.0.3",
     "gatsby-plugin-gatsby-cloud": "^2.2.0",
     "gatsby-plugin-image": "^1.2.1",

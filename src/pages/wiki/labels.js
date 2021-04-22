@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import Layout from "../../components/layout"
-import SEO from "../../components/seo"
+import Seo from "../../components/seo"
 import withLocation from "../../components/withLocation"
 
 const IndexPage = ({ search }) => {
@@ -41,7 +41,7 @@ const IndexPage = ({ search }) => {
     const labelsArray = Array.from(labelsList).sort();
   return (
     <Layout>
-      <SEO title="Pages by labels" keywords={[`wiki`, `labels`, `filter`]} />
+      <Seo title="Pages by labels" keywords={[`wiki`, `labels`, `filter`]} />
       <h1>Pages by labels</h1>
       <div 
         className="select-labels"

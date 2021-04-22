@@ -2,14 +2,14 @@ import * as React from "react"
 
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const wikiHomePage = ({ data }) => {
   console.log(data)
   const confluencePages = data.allConfluencePage.edges.map(n => n.node)
   return (
     <Layout>
-      <SEO title="All Wiki Pages" />
+      <Seo title="All Wiki Pages" />
       <h1>All wiki pages</h1>
       <ul>
         {confluencePages.map(page => (

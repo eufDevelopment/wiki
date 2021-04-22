@@ -2,7 +2,7 @@ import React from "react"
 import { graphql, Link, navigate  } from "gatsby"
 
 import Layout from "../../components/layout"
-import SEO from "../../components/seo"
+import Seo from "../../components/seo"
 
 const WikiPage = ({ data }) => {
   const { id, title, bodyHtml, labels, ancestors, localImages } = data.confluencePage
@@ -18,7 +18,7 @@ const WikiPage = ({ data }) => {
   }
   return (
     <Layout>
-      <SEO title={title} />
+      <Seo title={title} />
       <div className="breadcrumb">
       <small>
         {ancestors.map(ancestor => (

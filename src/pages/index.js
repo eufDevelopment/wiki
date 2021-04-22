@@ -1,7 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const homePage = () => (
   <StaticQuery
@@ -15,7 +15,7 @@ const homePage = () => (
     `}
     render={data => (
     <Layout> 
-      <SEO title="Home" keywords={[`gender equity`, `gender equality`, `ultimate`, `coaching`, `European Ultimate Federation`, `erasmus`]}  />
+      <Seo title="Home" keywords={[`gender equity`, `gender equality`, `ultimate`, `coaching`, `European Ultimate Federation`, `erasmus`]}  />
         <div dangerouslySetInnerHTML={{ __html: data.confluencePage.bodyHtml }} />
     </Layout> )}
   ></StaticQuery>

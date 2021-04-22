@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import MagnifyingGlass from "../svg/magnifyingGlass.svg"
 
 const { search } = window.location;
@@ -49,7 +49,7 @@ class Search extends Component {
 
     return (
         <Layout>
-            <SEO title="Search" />            
+            <Seo title="Search" />            
             <div className="search-wrapper">
                 <label className="searchLabel" htmlFor="search">
                     <span className="visually-hidden">

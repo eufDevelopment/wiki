@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: process.env.confluenceCQL,
+    title: `EUGEM`,
     description: `EUGEM - European Ultimate Gender Equity Manual`,
     lang: `en`,
     mainSite: `https://ultimatefederation.eu/`,
