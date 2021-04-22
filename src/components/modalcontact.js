@@ -27,7 +27,11 @@ class ModalContact extends Component {
   render() {
     // the modal you will toggle on and off
 
-    const lpath = window.location.href;
+    if (typeof window !== `undefined`){ 
+      const lpath = window.location.href;
+    } else {
+      const lpath = ''
+    }
     const url1 = this.props.url1;
     const url2 = this.props.url2;
     const contactEmail = this.props.email;
