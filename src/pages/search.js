@@ -74,8 +74,13 @@ class Search extends Component {
   }
 
   getSearchResults(query) {
+    if (typeof window !== `undefined`){ 
     var index = window.__FLEXSEARCH__.en.index
     var store = window.__FLEXSEARCH__.en.store
+    } else {
+      var index = ''
+      var store = ''
+    }
     if (!query || !index) {
       return []
     } else {
