@@ -30,7 +30,7 @@ class ModalContact extends Component {
     if (typeof window !== `undefined`){ 
       const lpath = window.location.href;
     } else {
-      const lpath = ''
+      const lpath = '/'
     }
     const url1 = this.props.url1;
     const url2 = this.props.url2;
