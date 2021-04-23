@@ -37,7 +37,7 @@ class ModalContact extends Component {
     const modal = (
       <div className="modal">
           <div style={{
-              padding:"30px 2%",
+              padding:"50px 2% 20px",
               maxWidth: "960px",
               margin:"3% auto",
               background:"#fff",
