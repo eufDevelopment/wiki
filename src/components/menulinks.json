@@ -57,7 +57,6 @@
         "id": 136282113,
         "url": "/wiki/136282113",
         "text": "Case studies",
-        "nodes": []
       },
       {
         "id": 397902888,
@@ -82,7 +81,6 @@
     "id": "assess",
     "url": "/assess",
     "text": "Gender Equity Assessment Form",
-    "nodes": []
   },
   {
     "id": 398099347,
@@ -125,13 +123,11 @@
         "id": 491531,
         "url": "/wiki/491531",
         "text": "Glossary",
-        "nodes": []
       },
       {
         "id": 397968479,
         "url": "/wiki/397968479",
         "text": "Legal Help by Country",
-        "nodes": []
       },
       {
         "id": 397902974,
@@ -147,6 +143,16 @@
             "id": 397870244,
             "url": "/wiki/397870244",
             "text": "LGBTQ+ in sport"
+          },
+          {
+            "id": 435781636,
+            "url": "/wiki/435781636",
+            "text": "The Patterns of Abuse"
+          },
+          {
+            "id": 444858382,
+            "url": "/wiki/444858382",
+            "text": "More resources for gender equity on the web"
           }
         ]
       },
@@ -188,7 +194,6 @@
         "id": 397902940,
         "url": "/wiki/397902940",
         "text": "EUF Transgender Inclusion Policy",
-        "nodes": []
       },
       {
         "id": 397870217,
@@ -216,7 +221,6 @@
         "id": 424574977,
         "url": "/wiki/424574977",
         "text": "EUF Procurement Policy",
-        "nodes": []
       }
     ]
   },
@@ -224,6 +228,5 @@
     "id": "safe",
     "url": "/safe",
     "text": "Report Form",
-    "nodes": []
   }
 ]
