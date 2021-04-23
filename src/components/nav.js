@@ -7,9 +7,7 @@ import "./nav.css"
 import Logo from "../svg/eugem.svg"
 import Caret from "../svg/caret.svg"
 
-import menuLinks from "./menulinks.json"
-
-
+const menuLinks = process.env.menuLinks;
 
 const Nav = () => (
   <div 
