@@ -594,6 +594,18 @@ pre tt:after {
   margin: 0 auto;
   display: block;
 }
+.image-left{
+  float: left;
+}
+.image-right{
+  float: right;
+}
+.clear-float {
+  clear: both;
+}
+.ptop20{
+  padding-top:20px;
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

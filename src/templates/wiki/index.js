@@ -49,7 +49,7 @@ const WikiPage = ({ data }) => {
         </small>
       </div>
 
-      {slug !== `398099282` ? <h1>{title}</h1> : ``}
+      <h1>{title}</h1>
       
       <main>             
         <div dangerouslySetInnerHTML={{ __html: newBodyHtml }} />
