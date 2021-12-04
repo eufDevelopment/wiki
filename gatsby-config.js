@@ -10,22 +10,18 @@ module.exports = {
     ultical: `tbd`,
     author: `@gabrieles`,
     contactEmail: 'development@ultimatefederation.eu',
-    contactUrl1: "https://script.google.com/macros/s/AKfydbxcBB_4n62kf3GThROGrvUF9r2Cv5AdkEJxGe6eHJvNfXkJlPvwUOS3UOhxqPVAjRa8JA/exec",
-    contactUrl2: "https://script.google.com/macros/s/AKfycbxcDB_4n82kf3GThROGrvUE9r2Cv5AdkEJxGe6eHJvNfXkJlPvwUOS3UOhxqPVAjRa8JA/exec"
-//    contactUrl1: process.env.GATSBY_contactUrl1,
-//    contactUrl2: process.env.GATSBY_contactUrl2
+    contactUrl1: process.env.GATSBY_contactUrl1,
+    contactUrl2: process.env.GATSBY_contactUrl2
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
       resolve: "gatsby-confluence-euf",
       options: {
-        hostname: "eugem.atlassian.net",
         limit: 50,
-        auth: "Basic ZXVnZW0tZXVmQHVsdGltYXRlZmVkZXJhdGlvbi5ldTpJOUFmOFpROXZTbEJLSnI2Vndsd0M0RUM=",
-        cql: "space=EUGEM"
-//        auth: process.env.GATSBY_confluenceAuth,
-//        cql: process.env.GATSBY_confluenceCQL
+        hostname: process.env.GATSBY_confluenceHost,
+        auth: process.env.GATSBY_confluenceAuth,
+        cql: process.env.GATSBY_confluenceCQL        
       }
     },
     `gatsby-plugin-image`,
@@ -64,30 +60,9 @@ module.exports = {
         nodeType: 'ConfluencePage',
         name: 'localImages',
         imagePath: 'images',
-        auth: { htaccess_user: "eugem-euf@ultimatefederation.eu", htaccess_pass: "I9Af8ZQ9vSlBKJr6VwlwC4EC" },
-//        auth: { htaccess_user: process.env.GATSBY_confluenceHtaccess_user, htaccess_pass: process.env.GATSBY_confluenceHtaccess_pass },
-        type: 'array'
-      },
-    },
-    {
-      resolve: "gatsby-source-remote-file",
-      options: {
-        // The source url of the remote file
-        url: "https://eugem.atlassian.net/wiki/spaces/EUGEM/",
-
-        // OPTIONAL
-        // Provide a name for the created node (default: "remote")
-        name: "files",
-
-        // OPTIONAL
-        // Adds htaccess authentication to the download request if passed in.
-        auth: { htaccess_user: `eugem-euf@ultimatefederation.eu`, htaccess_pass: `I9Af8ZQ9vSlBKJr6VwlwC4EC` },
-
-        // OPTIONAL
-        // If something goes wrong while downloading the remote file,
-        // report a warning instead of stopping the build. (default: "fail")
-        errorHandling: "warn",
-      },
+        type: 'array',
+        auth: { htaccess_user: process.env.GATSBY_confluenceHtaccess_user, htaccess_pass: process.env.GATSBY_confluenceHtaccess_pass }    
+      }
     },
     {
       resolve: `@ssfbank/gatsby-plugin-search-fusejs`,
@@ -97,7 +72,7 @@ module.exports = {
         ConfluencePage : {
         id				: node => node.id,
         path			: node => node.slug,
-        title         	: node => node.title,
+        title     : node => node.title,
         body			: node => node.bodyHtml
         },		
       },

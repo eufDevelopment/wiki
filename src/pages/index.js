@@ -21,6 +21,7 @@ const homePage = () => (
         <img 
               src={Homeimg} 
               alt="EUGEM by the EUF with the support of the Erasmus+ Programme of the European Union." 
+              className="image-center"
               style={{
                 maxHeight:'90px',
                 marginBottom: "0"

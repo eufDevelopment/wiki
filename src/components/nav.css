@@ -113,7 +113,7 @@ footer #eufLinks a{
     border: 1px solid;
     width: var(--unit7);
     height: var(--unit7);
-    line-height: var(--unit7);
+    line-height: var(--unit6);
     margin-left: var(--unit2);
     border-radius: var(--unit1);
     padding: var(--unit1);
