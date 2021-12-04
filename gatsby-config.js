@@ -92,7 +92,7 @@ module.exports = {
       // useResolverNamespaces: false,
       // Optional filter to limit indexed nodes
       //filter: (node, getNode) => node.frontmatter.tags !== 'exempt',
-      },
+      }
     },
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
