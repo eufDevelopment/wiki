@@ -84,8 +84,6 @@ export default WikiPage
 export const WikiPageQuery = graphql`
   query wikiQuery($id: String) {
     confluencePage(id: { eq: $id }) {
-      id
-      slug
       title
       bodyHtml
       labels{

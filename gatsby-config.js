@@ -1,3 +1,6 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 module.exports = {
   siteMetadata: {
     title: `EUGEM`,
@@ -61,7 +64,7 @@ module.exports = {
         name: 'localImages',
         imagePath: 'images',
         type: 'array',
-        auth: { htaccess_user: process.env.GATSBY_confluenceHtaccess_user, htaccess_pass: process.env.GATSBY_confluenceHtaccess_pass }    
+        auth: { htaccess_user: process.env.GATSBY_confluenceHtaccess_user, htaccess_pass: process.env.GATSBY_confluenceHtaccess_pass }
       }
     },
     {
@@ -92,7 +95,7 @@ module.exports = {
       // useResolverNamespaces: false,
       // Optional filter to limit indexed nodes
       //filter: (node, getNode) => node.frontmatter.tags !== 'exempt',
-      }
+      },
     },
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality

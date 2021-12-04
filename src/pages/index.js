@@ -37,7 +37,7 @@ const homePage = () => (
                 marginBottom: "0"
               }}
               />
-        <div className="clear-float" dangerouslySetInnerHTML={{ __html: data.confluencePage.bodyHtml }} />
+        <div className="cftpt20" dangerouslySetInnerHTML={{ __html: data.confluencePage.bodyHtml }} />
       </main>
     </Layout> )}
   ></StaticQuery>

@@ -600,10 +600,8 @@ pre tt:after {
 .image-right{
   float: right;
 }
-.clear-float {
+.cftpt20 {
   clear: both;
-}
-.ptop20{
   padding-top:20px;
 }
 @media only screen and (max-width: 480px) {
