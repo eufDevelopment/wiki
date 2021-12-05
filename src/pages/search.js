@@ -17,8 +17,7 @@ const searchPage = () => (
       <Layout> 
         <Seo title="Search" keywords={[`gender equity`, `gender equality`, `ultimate`, `coaching`, `European Ultimate Federation`, `erasmus`]}  />
         <main>
-          
-          
+
         </main>
       </Layout> )}
     ></StaticQuery>
