@@ -1,3 +1,6 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 module.exports = {
   siteMetadata: {
     title: `EUGEM`,
@@ -10,8 +13,8 @@ module.exports = {
     ultical: `tbd`,
     author: `@gabrieles`,
     contactEmail: 'development@ultimatefederation.eu',
-    contactUrl1: process.env.GATSBY_contactUrl1,
-    contactUrl2: process.env.GATSBY_contactUrl2
+    contactUrl1: process.env.contactUrl1,
+    contactUrl2: process.env.contactUrl2
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,9 +22,9 @@ module.exports = {
       resolve: "gatsby-confluence-euf",
       options: {
         limit: 50,
-        hostname: process.env.GATSBY_confluenceHost,
-        auth: process.env.GATSBY_confluenceAuth,
-        cql: process.env.GATSBY_confluenceCQL        
+        hostname: process.env.confluenceHost,
+        auth: process.env.confluenceAuth,
+        cql: process.env.confluenceCQL        
       }
     },
     `gatsby-plugin-image`,
@@ -61,7 +64,7 @@ module.exports = {
         name: 'localImages',
         imagePath: 'images',
         type: 'array',
-        auth: { htaccess_user: process.env.GATSBY_confluenceHtaccess_user, htaccess_pass: process.env.GATSBY_confluenceHtaccess_pass }
+        auth: { htaccess_user: process.env.confluenceHtaccess_user, htaccess_pass: process.env.confluenceHtaccess_pass }
       }
     },
     {

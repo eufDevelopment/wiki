@@ -6,7 +6,7 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
 const WikiPage = ({ data }) => {
-  const { id, slug, title, bodyHtml, labels, ancestors, localImages } = data.confluencePage
+  const { title, bodyHtml, labels, ancestors, localImages } = data.confluencePage
   let newBodyHtml = bodyHtml
   if(localImages.length>0) {
     for(let i=0; i<localImages.length; i++){
