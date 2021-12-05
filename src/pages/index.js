@@ -30,7 +30,7 @@ const homePage = () => (
               />
         <img 
               src={ErasmusImg} 
-              alt="EUGEM by the EUF with the support of the Erasmus+ Programme of the European Union." 
+              alt="EUGEM by the EUF with the support of the Erasmus+ Programme of the European Union. " 
               className="image-right"
               style={{
                 maxHeight:'90px',
