@@ -14,10 +14,11 @@ const searchPage = () => (
         }
       `}
       render={data => (
+       
       <Layout> 
         <Seo title="Search" keywords={[`gender equity`, `gender equality`, `ultimate`, `coaching`, `European Ultimate Federation`, `erasmus`]}  />
         <main>
-
+            <pre> {JSON.stringify(data.siteSearchIndex.fuse) }</pre>
         </main>
       </Layout> )}
     ></StaticQuery>
