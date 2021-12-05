@@ -64,36 +64,6 @@ module.exports = {
         auth: { htaccess_user: process.env.confluenceHtaccess_user, htaccess_pass: process.env.confluenceHtaccess_pass }
       }
     },
-    {
-      resolve: `@ssfbank/gatsby-plugin-search-fusejs`,
-      options: {
-      // How to resolve each field`s value for a supported node type
-      resolvers: {
-        ConfluencePage : {
-        id				: node => node.id,
-        path			: node => node.slug,
-        title     : node => node.title,
-        body			: node => node.bodyHtml
-        },		
-      },
-      // pass on fuse specific constructor options: https://fusejs.io/api/options.html
-      fuseOptions: {
-        keys: ['id','path','title', 'body'], // Mandatory
-        ignoreLocation: true,
-        treshold: 0.4,
-        minMatchCharLength: 2
-      },
-      // if you want a copy of the serialized data structure into the public folder for external or lazy-loaded clientside consumption
-      // will be put in ./public folder and will end up as ./public/fuse-search-data.json
-      copySerializationToFile: 'fuse-search-data',
-    
-      // Allow separate namespaces unde reach resolver,
-      // which again leads to the same namespaces in the data
-      // useResolverNamespaces: false,
-      // Optional filter to limit indexed nodes
-      //filter: (node, getNode) => node.frontmatter.tags !== 'exempt',
-      },
-    },
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
