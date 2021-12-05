@@ -9,7 +9,7 @@ module.exports = {
     instagram: `https://www.instagram.com/ultimatefederation_eu`,
     ultical: `tbd`,
     author: `@gabrieles`,
-    contactEmail: 'development@ultimatefederation.eu',
+    contactEmail: process.env.contactEmail,
     contactUrl1: process.env.contactUrl1,
     contactUrl2: process.env.contactUrl2
   },
