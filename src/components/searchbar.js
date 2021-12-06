@@ -1,6 +1,5 @@
 import React from 'react';
 import { Formik, Field, Form } from 'formik';
-import { navigate } from "@reach/router"
 import MagnifyingGlass from "../svg/magnifyingGlass.svg"
 
 const SearchBar = ({ defaultSearchQuery }) => (
