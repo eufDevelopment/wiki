@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const wikiHomePage = ({ data }) => {
-  console.log(data)
   const confluencePages = data.allConfluencePage.edges.map(n => n.node)
   return (
     <Layout>
