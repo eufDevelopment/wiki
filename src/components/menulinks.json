@@ -1,5 +1,11 @@
 [
   {
+    "id": "home",
+    "url": "/",
+    "text": "Home",
+    "nodes": []
+  },
+  {
     "id": 424673315,
     "url": "/wiki/424673315",
     "text": "Introduction to Gender Equity",
@@ -60,24 +66,5 @@
     "url": "/wiki/136282113",
     "text": "Case studies",
     "nodes": []
-  },
-  {
-    "id": 397902888,
-    "url": "/wiki/397902888",
-    "text": "About the EUGEM project",
-    "nodes": [
-      {
-        "id": 336560186,
-        "url": "/wiki/336560186",
-        "text": "Biographies",
-        "nodes": []
-      },
-      {
-        "id": 397870153,
-        "url": "/wiki/397870153",
-        "text": "Press kit",
-        "nodes": []
-      }
-    ]
   }
 ]
