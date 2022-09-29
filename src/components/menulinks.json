@@ -1,232 +1,83 @@
 [
   {
-    "id": 398099282,
-    "url": "/wiki/398099282",
-    "text": "EUGEM Manual",
+    "id": 424673315,
+    "url": "/wiki/424673315",
+    "text": "Introduction to Gender Equity",
     "nodes": [
       {
-        "id": 424673315,
-        "url": "/wiki/424673315",
-        "text": "Introduction to Gender Equity",
-        "nodes": [
-          {
-            "id": 424673331,
-            "url": "/wiki/424673331",
-            "text": "Gender Equity vs Gender Equality"
-          },
-          {
-            "id": 425426992,
-            "url": "/wiki/425426992",
-            "text": "Defining \"Sex\" and \"Gender\""
-          },
-          {
-            "id": 424607810,
-            "url": "/wiki/424607810",
-            "text": "Gender Differences in Sport"
-          },
-          {
-            "id": 434044995,
-            "url": "/wiki/434044995",
-            "text": "Gender Quotas - Pro and Contra"
-          }
-        ]
+        "id": 424673331,
+        "url": "/wiki/424673331",
+        "text": "Gender Equity vs Gender Equality",
+        "nodes": []
       },
       {
-        "id": 274825217,
-        "url": "/wiki/274825217",
-        "text": "Good practices",
-        "nodes": [
-          {
-            "id": 274825221,
-            "url": "/wiki/274825221",
-            "text": "Recruit"
-          },
-          {
-            "id": 274825478,
-            "url": "/wiki/274825478",
-            "text": "Train"
-          },
-          {
-            "id": 274825678,
-            "url": "/wiki/274825678",
-            "text": "Retain"
-          }
-        ]
+        "id": 425426992,
+        "url": "/wiki/425426992",
+        "text": "Defining \"Sex\" and \"Gender\"",
+        "nodes": []
       },
       {
-        "id": 136282113,
-        "url": "/wiki/136282113",
-        "text": "Case studies"
+        "id": 424607810,
+        "url": "/wiki/424607810",
+        "text": "Gender Differences in Sport",
+        "nodes": []
       },
       {
-        "id": 397902888,
-        "url": "/wiki/397902888",
-        "text": "About the EUGEM project",
-        "nodes": [
-          {
-            "id": 336560186,
-            "url": "/wiki/336560186",
-            "text": "Biographies"
-          },
-          {
-            "id": 397870153,
-            "url": "/wiki/397870153",
-            "text": "Press kit"
-          }
-        ]
+        "id": 434044995,
+        "url": "/wiki/434044995",
+        "text": "Gender Quotas - Pro and Contra",
+        "nodes": []
       }
     ]
   },
   {
-    "id": "assess",
-    "url": "/assess",
-    "text": "Gender Equity Assessment Form"
-  },
-  {
-    "id": 398099347,
-    "url": "/wiki/398099347",
-    "text": "Resources",
+    "id": 274825217,
+    "url": "/wiki/274825217",
+    "text": "Good practices",
     "nodes": [
       {
-        "id": 397968496,
-        "url": "/wiki/397968496",
-        "text": "Event Management",
-        "nodes": [
-          {
-            "id": 274825774,
-            "url": "/wiki/274825774",
-            "text": "Gender Equity Toolkit for Tournament Organisers"
-          },
-          {
-            "id": 397968506,
-            "url": "/wiki/397968506",
-            "text": "Sustainability Toolkit for Tournament Organisers"
-          },
-          {
-            "id": 397968523,
-            "url": "/wiki/397968523",
-            "text": "How to host an event"
-          },
-          {
-            "id": 397870180,
-            "url": "/wiki/397870180",
-            "text": "EUF tournament standards"
-          },
-          {
-            "id": 397902903,
-            "url": "/wiki/397902903",
-            "text": "EUF Event Waiver"
-          }
-        ]
+        "id": 274825221,
+        "url": "/wiki/274825221",
+        "text": "Recruit",
+        "nodes": []
       },
       {
-        "id": 491531,
-        "url": "/wiki/491531",
-        "text": "Glossary"
+        "id": 274825478,
+        "url": "/wiki/274825478",
+        "text": "Train",
+        "nodes": []
       },
       {
-        "id": 397968479,
-        "url": "/wiki/397968479",
-        "text": "Legal Help by Country"
-      },
-      {
-        "id": 397902974,
-        "url": "/wiki/397902974",
-        "text": "Policy Research",
-        "nodes": [
-          {
-            "id": 397902981,
-            "url": "/wiki/397902981",
-            "text": "How to create your harassment and abuse policy"
-          },
-          {
-            "id": 397870244,
-            "url": "/wiki/397870244",
-            "text": "LGBTQ+ in sport"
-          },
-          {
-            "id": 435781636,
-            "url": "/wiki/435781636",
-            "text": "The Patterns of Abuse"
-          },
-          {
-            "id": 444858382,
-            "url": "/wiki/444858382",
-            "text": "More resources for gender equity on the web"
-          }
-        ]
-      },
-      {
-        "id": 397968540,
-        "url": "/wiki/397968540",
-        "text": "Web & IT",
-        "nodes": [
-          {
-            "id": 397968547,
-            "url": "/wiki/397968547",
-            "text": "Site buidling"
-          },
-          {
-            "id": 398099364,
-            "url": "/wiki/398099364",
-            "text": "Forms"
-          },
-          {
-            "id": 398099371,
-            "url": "/wiki/398099371",
-            "text": "Personas"
-          },
-          {
-            "id": 397968561,
-            "url": "/wiki/397968561",
-            "text": "Wiki"
-          }
-        ]
+        "id": 274825678,
+        "url": "/wiki/274825678",
+        "text": "Retain",
+        "nodes": []
       }
     ]
   },
   {
-    "id": 397968568,
-    "url": "/wiki/397968568",
-    "text": "EUF Policies",
-    "nodes": [
-      {
-        "id": 397902940,
-        "url": "/wiki/397902940",
-        "text": "Transgender Inclusion Policy"
-      },
-      {
-        "id": 397870217,
-        "url": "/wiki/397870217",
-        "text": "Inclusive and Safe Sport Policy",
-        "nodes": [
-          {
-            "id": 397902957,
-            "url": "/wiki/397902957",
-            "text": "EUF Safe in Sport Officers"
-          },
-          {
-            "id": 435781657,
-            "url": "/wiki/435781657",
-            "text": "Find Your Reasons"
-          },
-          {
-            "id": 435847191,
-            "url": "/wiki/435847191",
-            "text": "Make a change!"
-          }
-        ]
-      },
-      {
-        "id": 424574977,
-        "url": "/wiki/424574977",
-        "text": "Procurement Policy"
-      }
-    ]
+    "id": 136282113,
+    "url": "/wiki/136282113",
+    "text": "Case studies",
+    "nodes": []
   },
   {
-    "id": "safe",
-    "url": "/safe",
-    "text": "Report Form"
+    "id": 397902888,
+    "url": "/wiki/397902888",
+    "text": "About the EUGEM project",
+    "nodes": [
+      {
+        "id": 336560186,
+        "url": "/wiki/336560186",
+        "text": "Biographies",
+        "nodes": []
+      },
+      {
+        "id": 397870153,
+        "url": "/wiki/397870153",
+        "text": "Press kit",
+        "nodes": []
+      }
+    ]
   }
 ]
